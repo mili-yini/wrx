@@ -20,7 +20,7 @@ const url = await fetchLatestFile()
 console.log('最新js文件url: ', url)
 if (!checkFileIsUpdated(url)) {
     console.log('js文件无变化')
-    process.exit(1)
+    // process.exit(1)
 }
 
 // 设置构建时间
