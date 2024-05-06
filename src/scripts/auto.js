@@ -12,7 +12,7 @@ let retry = 0
 
 const selectorMap = {
     prev: 'button.readerHeaderButton',
-    next: 'button.readerFooter_button:not(.readerFooter_button_twoLines)',
+    next: 'button.renderTarget_pager_button_right',
 }
 
 function log(msg, ...args) {
